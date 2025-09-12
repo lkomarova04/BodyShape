@@ -1,0 +1,28 @@
+.section{
+    padding: 150px 0;
+}
+
+.section-trainers {
+   max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+.section-title{
+    color: var(--accent);
+    font-weight: 700;
+    font-family: var(--font-accent);
+    font-size: 96px;
+    letter-spacing: 0.08em;
+}
+
+.section-header p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.section-trainers-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px 30px;
+}
