@@ -49,6 +49,24 @@
     opacity: 1;
 }
 
-.card-trainer-img{
+@media (hover: none) and (pointer: coarse) {
+    .card-trainer-name {
+        opacity: 1;
+        top: 50%;
+    }
+    .card-trainer::before {
+        opacity: 1;
+    }
+}
 
+@media (max-width: 800px){
+    .card-trainer-name {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px){
+    .card-trainer{
+        border-radius: 10px;
+    }
 }
