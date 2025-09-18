@@ -87,7 +87,3 @@ label {
 legend {
 	display: block;
 }
-
-input[type='file'] {
-	max-width: 100%;
-}

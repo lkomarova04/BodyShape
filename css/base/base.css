@@ -1,35 +1,30 @@
 :root {
-    --accent: #FFD479;
+	--accent: #FFD479;
 
-    --font-base: 'Roboto', sans-serif;
-    --font-accent:'Bebas Neue';
+	--font-base: 'Roboto', sans-serif;
+	--font-accent: 'Bebas Neue', sans-serif;
 }
+
 body {
-    background-color: #1F2A32;
-    color: #FAFAF5;
+	background-color: #1F2A32;
+	color: #FAFAF5;
 
-    font-family: var(--font-base);
-    font-weight: 300;
-
-    padding-bottom: 600px;
+	font-family: var(--font-base);
+	font-weight: 300;
 }
 
 a {
-    color: #fff;
-
-}
-
-.title-1 {
-    color: var(--accent);
-    font-weight: 700;
-    font-family: var(--font-accent);
-    font-size: 96px;
+	color: #FAFAF5;
 }
 
 .container {
-    max-width: 1200px;
-    width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
 
-    margin: 0 auto;
-    padding: 0 15px;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.container-contact {
+	max-width: 615px;
 }
